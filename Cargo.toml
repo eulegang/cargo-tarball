@@ -1,0 +1,17 @@
+[package]
+name = "cargo-tarball"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+toml = "0.5"
+serde = "1.0"
+clap = { version = "4.0", features = [ "derive", "env" ] }
+git2 = "0.14"
+
+tar = "0.4"
+flate2 = "1.0"
+
+eyre = "0.6"
