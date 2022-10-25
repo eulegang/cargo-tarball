@@ -9,7 +9,7 @@ edition = "2021"
 toml = "0.5"
 serde = { version = "1.0", features = [ "derive" ] }
 clap = { version = "4.0", features = [ "derive", "env" ] }
-git2 = "0.14"
+git2 = { version = "0.14", default-features = false }
 
 tar = "0.4"
 flate2 = "1.0"
